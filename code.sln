@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 11
+# Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "code", "code\code.vcxproj", "{D9E0FAA9-A417-3279-18CA-56E046F4156E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prep", "Prep\Prep.vcxproj", "{78645F1F-5BEA-FD91-1E22-E80681D2ECF2}"
@@ -8,6 +8,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeAndGraph", "TreeAndGraph\TreeAndGraph.vcxproj", "{A4B017CD-C09B-2DA4-1982-C7D7E960EE9E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyList", "MyList\MyList.vcxproj", "{41FE0C61-6C73-64E0-FEF2-D367A3EDD02F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crack", "csharp\crack\crack.csproj", "{69256487-0834-485D-81D5-6B71F414A45C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,18 @@ Global
 		{41FE0C61-6C73-64E0-FEF2-D367A3EDD02F}.Release|Win32.ActiveCfg = Release|Win32
 		{41FE0C61-6C73-64E0-FEF2-D367A3EDD02F}.Release|Win32.Build.0 = Release|Win32
 		{41FE0C61-6C73-64E0-FEF2-D367A3EDD02F}.Release|x64.ActiveCfg = Release|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Debug|ARM.ActiveCfg = Debug|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Debug|ARM.Build.0 = Debug|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Debug|Win32.Build.0 = Debug|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Debug|x64.ActiveCfg = Debug|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Debug|x64.Build.0 = Debug|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Release|ARM.ActiveCfg = Release|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Release|ARM.Build.0 = Release|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Release|Win32.ActiveCfg = Release|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Release|Win32.Build.0 = Release|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Release|x64.ActiveCfg = Release|Win32
+		{69256487-0834-485D-81D5-6B71F414A45C}.Release|x64.Build.0 = Release|Win32
 		{78645F1F-5BEA-FD91-1E22-E80681D2ECF2}.Debug|ARM.ActiveCfg = Debug|Win32
 		{78645F1F-5BEA-FD91-1E22-E80681D2ECF2}.Debug|Win32.ActiveCfg = Debug|Win32
 		{78645F1F-5BEA-FD91-1E22-E80681D2ECF2}.Debug|Win32.Build.0 = Debug|Win32

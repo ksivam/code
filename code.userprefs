@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="csharp/crack/crack.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|Win32" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="csharp/crack/Program.cs">
+    <Files>
+      <File FileName="csharp/crack/Program.cs" Line="30" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,3 +1,4 @@
+import java.nio.file.Path;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -54,6 +55,30 @@ public class Main {
         CheckBST();
 
         RunAnimalShelter();
+
+        PrintPathSum();
+    }
+
+    private static void PrintPathSum() {
+        Node two2 = new Node(null, null, 2);
+        Node three2 = new Node(null, null, 3);
+        Node eight = new Node(null, null, 8);
+
+        Node six = new Node (null, eight, 6);
+        Node seven = new Node (null, null, 7);
+        Node three = new Node (six, seven, 3);
+
+        Node four = new Node(null, null, 4);
+        Node five = new Node(two2, three2, 5);
+        Node two = new Node (four, five, 2);
+
+        Node one = new Node (two, three, 1);
+
+        int sum = 11;
+        System.out.println("PrintPathSum: " + sum);
+        System.out.println("============");
+        PathSum pathSum = new PathSum(sum);
+        pathSum.Run(one);
     }
 
     private static void ListAtEachDepth(Node one) {

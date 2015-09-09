@@ -1,0 +1,17 @@
+- walk through the entire process of a http request from browser to an ASP.Net MVC application
+- Desing a Web page which shows the first 5 result of a free text search
+-- a control which has a textbox and on entering texts, shows the max of 5 search results where each search result contains
+--- image, title and subtext
+-- walk thro all tech/api needed and do some high level implementation
+
+- Return the second largest number in a BST
+- Design a Cache class which has the following
+-- the caller should not make a get service request, if another caller is already in progress of fetching the same data
+--- [Hint]: GetIfNotPresent(string key, Func func)
+--- if a call is already in progress to fetch the data for key, make the caller to wait on wait object
+
+- Reverse words in a string preserving punctiuations
+-- input: "Hello, How are you?. My name Moo!."
+-- output: "you, are How Hello?. Moo name My!."
+
+[Hint]: stack, queue, and remember of punctiuation

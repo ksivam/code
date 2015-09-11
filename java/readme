@@ -15,3 +15,18 @@
 -- output: "you, are How Hello?. Moo name My!."
 
 [Hint]: stack, queue, and remember of punctiuation
+
+
+- give an array and sum, find whether a pair exist in the array which has the sum
+-- ex: arr: [4,9,0,1,6,2]
+-- find(arr, 8): false
+-- find(arr,9): true
+-- find(arr,6): true
+
+- given 2 binary search tree T1 and T2, merge them
+-- compare and push each node: (-)nlog(n)
+-- improve it
+--- T1: inorder: (-)n
+--- T2: inorder: (-)n
+--- merge the T1 and T2 inorder in sorted order: (-)n
+--- construct the merged binray tree from the sorted array: (-)n

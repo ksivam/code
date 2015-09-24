@@ -5,18 +5,16 @@ namespace Fall2015
 	class Node {
 
 		public bool Visited { get; private set;}
-		public int Data { get; private set;}
+		public int Value { get; private set;}
 		public Node Left { get; private set;}
 		public Node Right {get;private set;}
 
-		public Node(Node left, Node right, int data) {
-			this.Data = data;
-			this.Left = left;
-			this.Right = right;
+		public Node(int value) {
+			this.Value = value;
 		}
 
 		public static void Print(Node node) {
-			Console.WriteLine(node.Data);
+			Console.WriteLine(node.Value);
 		}
 
 		public static void Visit(Node node){

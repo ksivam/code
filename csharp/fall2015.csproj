@@ -35,6 +35,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalcSumByDepth.cs" />
     <Compile Include="QueueUsingStack.cs" />
     <Compile Include="MutexAndSemaphore.cs" />
     <Compile Include="StackUsingQueue.cs" />

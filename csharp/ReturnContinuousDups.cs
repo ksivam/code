@@ -23,6 +23,7 @@ namespace Fall2015
             int prev = 0;
             int current = prev + 1;
 
+            // time complexity: (-) n
             while(prev < len && current < len){
                 if (c[prev] == c[current])
                 {

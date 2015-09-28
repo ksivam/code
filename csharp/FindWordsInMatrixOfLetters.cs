@@ -14,7 +14,7 @@ namespace Fall2015
     {
         // time complexity: (-) n^2 * n^2
         internal static string[] Find(char[][] matrix, string[] input)
-        {
+        {            
             var result = new List<string>();
 
             // generate a matrix hashset for all chars to count in the matrix.

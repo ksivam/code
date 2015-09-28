@@ -37,8 +37,10 @@
   <ItemGroup>
     <Compile Include="CacheWithAutoDeletion.cs" />
     <Compile Include="CalcSumByDepth.cs" />
+    <Compile Include="Class.cs" />
     <Compile Include="QueueUsingStack.cs" />
     <Compile Include="MutexAndSemaphore.cs" />
+    <Compile Include="ReturnContinuousDups.cs" />
     <Compile Include="StackUsingQueue.cs" />
     <None Include="readme.md" />
     <Compile Include="FindWordsInMatrixOfLetters.cs" />

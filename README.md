@@ -2,6 +2,6 @@
 port from bitbucket
 
 - Front end
-- Full stack engineer
+- Full stack
 - Internal Tools
 

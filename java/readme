@@ -30,3 +30,6 @@
 --- T2: inorder: (-)n
 --- merge the T1 and T2 inorder in sorted order: (-)n
 --- construct the merged binray tree from the sorted array: (-)n
+
+- given 1TB of raw file with SSN, find unique SSN
+- 
